@@ -1,0 +1,12 @@
+@echo off
+set /p id="Enter dir: "
+echo 'N/A';
+for %%a in ("%id%**~* or **#* " ) do (
+    del %%a /s /f /q
+    set fname=%%a
+    echo %fname%
+
+    
+)
+set my_path = %id%
+echo %my_path%
