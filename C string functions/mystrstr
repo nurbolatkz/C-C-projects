@@ -1,0 +1,42 @@
+#include <stdio.h>  
+#include <string.h>
+char* my_strstr(char* param_1, char* param_2)
+{
+        
+        int  k = 0;
+        char* str1 = param_1;
+        char* str2 = param_2;
+        
+        int len = strlen(str1);
+        int len2 = strlen(str2);
+        char str3[len];
+        int i = 0;
+        int n = 0;
+        int pos = 0;
+        for(int i = 0; i< len2; i++){
+            for(int j = k; j< len;j++){
+                if (str1[j] == str2[i]){
+                    
+                    k = j;
+                    n++;
+                    if(n==1){
+                        pos = j;
+                     }
+                    break;
+                    
+                }
+            }
+        }
+        i = 0;
+        if (n ==len2){
+            for(pos;pos<len;pos++){
+                str3[i] = str1[pos];
+                i++;
+            }
+            
+            return strdup(str3);
+        }else{
+            return NULL;
+        }
+        
+}
