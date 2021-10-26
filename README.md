@@ -5,9 +5,13 @@
 #I started my work from implementing <b>Math </b> functions below:
 
 [MyAtoi function](https://github.com/nurbolatkz/C_projects/blob/main/C%20math/my_atoi.c)
+
 [MyIterativeFactorial](https://github.com/nurbolatkz/C_projects/blob/main/C%20math/my_iterative_factorial.c)
+
 [MyIterativePow](https://github.com/nurbolatkz/C_projects/blob/main/C%20math/my_iterative_pow.c)
+
 [MyRecursiveFactorial](https://github.com/nurbolatkz/C_projects/blob/main/C%20math/my_recursive_factorial.c)
+
 [MyRecursivePow.](https://github.com/nurbolatkz/C_projects/blob/main/C%20math/my_recursive_pow.c)
 
 ## Then STRING functions Imlpementing bacis string functions in C 
