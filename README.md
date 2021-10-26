@@ -75,7 +75,7 @@ Cat is a standard Unix utility that reads files sequentially, writing them to st
 #### Tasks with Bash Scripts
 [MyClean](https://github.com/nurbolatkz/C_projects/blob/main/bash_scripts/my_clean) - search and then delete files starting with '#' and "*" and ending with "#" including subdirectories.
 
-[MyFindSh][https://github.com/nurbolatkz/C_projects/blob/main/bash_scripts/my_find_sh] - find all files with extension '.sh'
+[MyFindSh](https://github.com/nurbolatkz/C_projects/blob/main/bash_scripts/my_find_sh) - find all files with extension '.sh'
 
 ##### Count all files in a given folder
 
@@ -92,9 +92,8 @@ Output should be like this:
 [MySquare](https://github.com/nurbolatkz/C_projects/blob/main/my_christmas_tree/my_square.c)
 
 Output : o---o
-         
+
          |   |
-         
          o---o
   
   
