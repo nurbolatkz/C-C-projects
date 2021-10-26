@@ -92,7 +92,9 @@ Output should be like this:
 [MySquare](https://github.com/nurbolatkz/C_projects/blob/main/my_christmas_tree/my_square.c)
 
 Output : o---o
+         
          |   |
+         
          o---o
   
   
